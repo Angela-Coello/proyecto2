@@ -2,17 +2,79 @@
  
 body{
     font-family: 'Open Sans', sans-serif;
-}
-
-navbar {
-    position: relative;
+    background-color: rgb(242, 246, 251) ;
 }
 
 .logo {
-    width: 100px;
-    height: auto;
+    width: 120px;
+    height: 50px;
+    padding-left: 70px;
+    margin-top: 50px;
 }
 
-navbar__items {
-     
+nav ul  {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    color:black;
+    list-style: none;
+    align-items: center;
+    gap: 30px;
+    font-size: 10px;
+    margin-right: 100px;
+    margin-top: -45px;
+    text-decoration: none;
 }
+
+    
+
+
+.download {
+    border-radius: 15px;
+    color: red;
+    border:2px solid red;
+    font-size: 10px ;
+    font-weight: bold;
+    padding: 7px 10px ;
+   
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+p{
+    font-size: 15px;
+    text-align: center;
+}
+
+.red-boton {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+
+}
+
+.red1 {
+    background-color: rgb(253, 97, 97);
+    color: ghostwhite;
+    border-radius: 20px;
+    padding: 10px 13px;
+    border: 0;
+    font-weight: bold;
+    
+}
+
+   
+.red2 {
+    background-color: rgb(253, 97, 97);
+    color: ghostwhite;
+    border-radius: 20px;
+    padding: 10px 13px;
+    border: 0;
+    font-weight: bold;
+   
+} 
+
+
+  
