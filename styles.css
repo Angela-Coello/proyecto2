@@ -3,3 +3,16 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+navbar {
+    position: relative;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+navbar__items {
+     
+}
