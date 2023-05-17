@@ -4,6 +4,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     background-color: rgb(242, 246, 251) ;
 }
+ 
 
 .logo {
     width: 120px;
@@ -12,6 +13,12 @@ body{
     margin-top: 50px;
 }
 
+
+ header {
+    position:sticky;
+ } 
+  
+ 
 nav ul  {
     list-style-type: none;
     display: flex;
@@ -24,9 +31,15 @@ nav ul  {
     margin-right: 100px;
     margin-top: -45px;
     text-decoration: none;
+    
 }
 
-    
+ nav ul a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+ }
+  
 
 
 .download {
@@ -38,6 +51,28 @@ nav ul  {
     padding: 7px 10px ;
    
 }
+
+.amarillo {
+    width: 1em;
+    float: right;
+    margin-right: 200px;
+}
+
+.verde {
+    width: 1em;
+    margin-left: 100px;
+}
+
+.c_blanco{
+    width: 10em;
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    
+}
+
+
+
 h1 {
     font-size: 50px;
     text-align: center;
@@ -62,6 +97,7 @@ p{
     padding: 10px 13px;
     border: 0;
     font-weight: bold;
+    flex-wrap: wrap;
     
 }
 
@@ -73,8 +109,95 @@ p{
     padding: 10px 13px;
     border: 0;
     font-weight: bold;
+    flex-wrap: wrap;
    
 } 
 
+.circulo {
+   position: relative;
+   margin: -90px;
+}
 
+.blanco {
+    width: 15em;
+    margin-left: ;
+}
+
+.azul {
+    width: 5em;
+    position: absolute;
+    margin-left: -70px;
   
+}
+
+.movil {
+    display: flex;
+    justify-content: center;
+}
+.movil1 {
+    width: 40em;
+   
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+ 
+.morao4 , .morao5 {
+    margin-top: 8px;
+}
+
+
+.foto {
+    width: 30em;
+}
+
+.foto-texto {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.lightbox {
+    background-color: rgb(253, 97, 97);
+    color: ghostwhite;
+    border-radius: 20px;
+    padding: 10px 13px;
+    border: 0;
+    font-weight: bold;
+    flex-wrap: wrap;
+   
+}
+
+.boton1 {
+  display: flex;
+  justify-content: center;
+}
+
+
+.texto2 {
+    margin-top: 200px;
+    display: flex;
+    justify-content: ;
+    gap: 5px;
+}
+
+.reloj {
+    color: whitesmoke;
+    background-color: blueviolet;
+    padding: 10px 13px;
+    border: 0;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+.lista {
+    background-color: rgb(254, 255, 255);
+    padding: 10px 13px;
+    border: 0;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
