@@ -203,6 +203,7 @@ p{
     margin-top: 100px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .boton_menu {
@@ -266,4 +267,80 @@ p{
 #tercera-seccion {
 margin-top: 100px;
 }
-    margin-top: 100px;
+   
+h2 {
+    text-align: center;
+    margin-top: 80px;
+}
+
+#comentario1{
+    margin-left: 80px;
+}
+
+#comentario-1 {
+text-align: left;
+font-family: cursive;
+font-style: italic;
+color: darkgray;
+}
+
+#firma1 {
+    text-align: left;
+    margin-left:40px ;
+    font-weight: bold;
+}
+
+#comentario-2 {
+    margin-left: 100px;
+}
+
+#comentario__2 {
+    text-align: left;
+font-family: cursive;
+font-style: italic;
+color: darkgray;
+}
+
+#firma2 {
+    text-align: left;
+    margin-left:40px ;
+    font-weight: bold; 
+}
+
+#comentario-3 {
+    margin-left: 100px; 
+}
+
+#comentario__3 {
+    text-align: left;
+font-family: cursive;
+font-style: italic;
+color: darkgray;  
+}
+
+#firma3 {
+    text-align: left;
+   margin-left: 40px ;
+    font-weight: bold; 
+}
+
+#tercera-seccion {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    gap:30px;
+   flex-wrap: wrap;
+
+}
+
+#img1 {
+    width: 6em;
+}
