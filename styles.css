@@ -6,6 +6,7 @@ body{
 }
  
 
+
 .logo {
     width: 120px;
     height: 50px;
@@ -15,8 +16,10 @@ body{
 
 
  header {
-    position:sticky;
- } 
+    position: sticky;
+    top: 0;
+}
+ 
   
  
 nav ul  {
@@ -31,7 +34,8 @@ nav ul  {
     margin-right: 100px;
     margin-top: -45px;
     text-decoration: none;
-    
+    position: sticky;
+    top: 0;
 }
 
  nav ul a {
@@ -153,6 +157,7 @@ p{
 
 .foto {
     width: 30em;
+
 }
 
 .foto-texto {
@@ -178,26 +183,87 @@ p{
   justify-content: center;
 }
 
-
-.texto2 {
-    margin-top: 200px;
-    display: flex;
-    justify-content: ;
-    gap: 5px;
+.calendario {
+    margin-bottom: 30px;
 }
-
-.reloj {
-    color: whitesmoke;
+.boton_reloj {
+    color: white;
     background-color: blueviolet;
     padding: 10px 13px;
     border: 0;
     font-weight: bold;
     flex-wrap: wrap;
+}  
+
+#primera-seccion {
+    margin: 50px    ; 
 }
-.lista {
-    background-color: rgb(254, 255, 255);
+
+#segunda-seccion {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.boton_menu {
     padding: 10px 13px;
     border: 0;
     font-weight: bold;
     flex-wrap: wrap;
+    color: rgb(0, 0, 0);
+    background-color: rgb(218, 221, 223);
 }
+
+.boton_calendario {
+    padding: 10px 13px;
+    border: 0;
+    font-weight: bold;
+    flex-wrap: wrap;
+    color: rgb(0, 0, 0);
+    background-color: rgb(218, 221, 223);
+}
+
+#parrafo1 {
+    text-align: left;
+}
+#parrafo2 {
+    text-align: left;
+}
+
+#parrafo3 {
+    text-align: left;
+}
+
+#parrafo4 {
+    text-align: left;
+}
+
+.boton3 {
+    background-color: rgb(253, 97, 97);
+    color: ghostwhite;
+    border-radius: 20px;
+    padding: 10px 13px;
+    border: 0;
+    font-weight: bold;
+    flex-wrap: wrap;
+    
+    
+}
+
+.boton4 {
+    border-radius: 20px;
+    padding: 10px 13px;
+    border: 1;
+    font-weight: bold;
+    flex-wrap: wrap;
+    
+}
+
+.foto-texto1 img {
+    width: 30em;
+}
+
+#tercera-seccion {
+margin-top: 100px;
+}
+    margin-top: 100px;
