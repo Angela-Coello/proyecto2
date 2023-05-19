@@ -143,17 +143,24 @@ p{
     justify-content: center;
 }
 .movil1 {
-    width: 40em;
-   animation-direction: alternate;
-   animation-duration: 3s;
-   animation-name: gira;
+   width: 40em;
+   animation-duration: 5s;
+  animation-name: slidein;
+  animation-iteration-count: 3;
+  animation-direction: alternate;
+}
 
-}
-@keyframes movil1 {
-    to {
-        transform: rotate(180deg);
+@keyframes slidein {
+    from {
+      margin-left:100%;
+      width:100%
     }
-}
+  
+    to {
+     margin-left:0%;
+     width:50%;
+   }
+  }
 .container {
     display: flex;
     justify-content: center;
